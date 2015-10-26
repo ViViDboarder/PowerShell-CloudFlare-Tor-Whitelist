@@ -13,18 +13,17 @@ The aim of this script is to provide website operators with a way to white-list 
 
 ## Examples
 ```
-	c:> Set-CloudFlareWhitelist.ps1 -Token $MyCloudFlareToken -Email $MyEmail
+c:> Set-CloudFlareWhitelist.ps1 -Token $MyCloudFlareToken -Email $MyEmail
 ```
 Creates/updates rules for Tor Exit address accross all of your domains in CloudFlare
 
 ```
-	c:> Set-CloudFlareWhitelist.ps1 -Token $MyCloudFlareToken -Email $MyEmail -Zone contoso.com
+c:> Set-CloudFlareWhitelist.ps1 -Token $MyCloudFlareToken -Email $MyEmail -Zone contoso.com
 ```
 Creates/updates rules for Tor Exit IP addresses only for the domain contoso.com
 
 ```
-
-	c:>Set-CloudFlareWhitelist.ps1 -Token $MyCloudFlareToken -Email $MyEmail -ClearRules
+c:>Set-CloudFlareWhitelist.ps1 -Token $MyCloudFlareToken -Email $MyEmail -ClearRules
 ```
 Remove all Tor Exit IP address rules specified for all of your domains in CloudFlare
 		
