@@ -1,6 +1,9 @@
 # PowerShell-CloudFlare-Tor-Whitelist
 PowerShell script to white-list Tor exit IP addresses in CloudFlare. This allows Tor users to access your websites without CAPTCHA requests
 
+## Update
+You can now control Tor access from the CloudFlare console - https://support.cloudflare.com/hc/en-us/articles/203306930-Does-CloudFlare-block-Tor-
+
 ## Thanks
 Many thanks to Donncha O'Cearbhaill for the development of his Cloudflare-tor-whitelister. Please visit: https://github.com/DonnchaC/cloudflare-tor-whitelister. Without his work, this would not have been as achievable.
 
